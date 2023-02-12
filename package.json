@@ -1,0 +1,30 @@
+{
+  "name": "cli-node",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qodvilla/cli-node.git"
+  },
+  "bin": {
+    "mpenyana": "./bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qodvilla/cli-node/issues"
+  },
+  "homepage": "https://github.com/qodvilla/cli-node#readme",
+  "dependencies": {
+    "boxen": "^7.0.1",
+    "chalk": "^5.2.0",
+    "prompt": "^1.3.0",
+    "yargs": "^17.6.2"
+  }
+}
